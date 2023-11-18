@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/night.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero:hover {
+    background-image: url("images/nc.gif");
+}
+
+#hero-text1 {
+    background: #F72585;
+    width: 210px;
+    margin: 100px 0 20px 0;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#hero-text2 {
+    background: #7209B7;
+    width: 400px;
+    font-size: 20px;
+    margin: 0 0 100px 0;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#activities {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: #4CC9F0;
+}
+
+.activity-box {
+    width: 190px;
+    margin: 0 50px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#activities-text {
+    background: #4CC9F0;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 50px auto;
+    background: #4361EE;
+    padding: 0 10px;
+    border-bottom: 5px solid #3A0CA3;
+    border-radius: 5px;
+}
+
+#guide-img {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#guide-text {
+    font-style: italic;
+}
